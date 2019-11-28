@@ -15,6 +15,8 @@
 		6FDEB02A23861B9600DB17A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDEB02823861B9600DB17A9 /* LaunchScreen.storyboard */; };
 		6FDEB03523861B9600DB17A9 /* Software_expTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDEB03423861B9600DB17A9 /* Software_expTests.swift */; };
 		6FDEB04023861B9600DB17A9 /* Software_expUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDEB03F23861B9600DB17A9 /* Software_expUITests.swift */; };
+		6FDEB04E238E4E8300DB17A9 /* Quiz-Buzzer01-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FDEB04D238E4E8300DB17A9 /* Quiz-Buzzer01-1.mp3 */; };
+		6FDEB050238E52DE00DB17A9 /* Quiz-Wrong_Buzzer02-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FDEB04F238E52DE00DB17A9 /* Quiz-Wrong_Buzzer02-2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6FDEB03B23861B9600DB17A9 /* Software_expUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Software_expUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDEB03F23861B9600DB17A9 /* Software_expUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Software_expUITests.swift; sourceTree = "<group>"; };
 		6FDEB04123861B9600DB17A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDEB04D238E4E8300DB17A9 /* Quiz-Buzzer01-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quiz-Buzzer01-1.mp3"; sourceTree = "<group>"; };
+		6FDEB04F238E52DE00DB17A9 /* Quiz-Wrong_Buzzer02-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quiz-Wrong_Buzzer02-2.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		6FDEB01C23861B9300DB17A9 /* Software_exp */ = {
 			isa = PBXGroup;
 			children = (
+				6FDEB04D238E4E8300DB17A9 /* Quiz-Buzzer01-1.mp3 */,
+				6FDEB04F238E52DE00DB17A9 /* Quiz-Wrong_Buzzer02-2.mp3 */,
 				6FDEB01D23861B9300DB17A9 /* AppDelegate.swift */,
 				6FDEB01F23861B9300DB17A9 /* SceneDelegate.swift */,
 				6FDEB02123861B9300DB17A9 /* ViewController.swift */,
@@ -232,7 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FDEB04E238E4E8300DB17A9 /* Quiz-Buzzer01-1.mp3 in Resources */,
 				6FDEB02A23861B9600DB17A9 /* LaunchScreen.storyboard in Resources */,
+				6FDEB050238E52DE00DB17A9 /* Quiz-Wrong_Buzzer02-2.mp3 in Resources */,
 				6FDEB02723861B9600DB17A9 /* Assets.xcassets in Resources */,
 				6FDEB02523861B9300DB17A9 /* Main.storyboard in Resources */,
 			);
